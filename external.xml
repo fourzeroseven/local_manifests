@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="fourzeroseven" fetch="https://github.com/fourzeroseven/" />
+<remote name="omnirom" fetch="https://github.com/omnirom/" />
+
+<project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-8.1" />
+
+</manifest>

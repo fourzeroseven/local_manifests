@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="fourzeroseven" fetch="https://github.com/fourzeroseven/" />
+<remote name="omnirom" fetch="https://github.com/omnirom/" />
+
+<project path="device/sony/suzu" name="android_device_sony_suzu" remote="fourzeroseven" revision="aex" />
+<project path="device/sony/common" name="android_device_sony_common" remote="fourzeroseven" revision="aex" />
+<project path="device/sony/loire-common" name="android_device_sony_loire-common" remote="omnirom" revision="android-8.1" />
+<project path="device/sony/common-headers" name="android_device_sony_common-headers" remote="omnirom" revision="android-8.1" />
+<project path="device/sony/sepolicy" name="android_device_sony_sepolicy" remote="omnirom" revision="android-8.1" />
+
+</manifest>

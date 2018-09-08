@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="fourzeroseven" fetch="https://github.com/fourzeroseven/" />
+<remote name="omnirom" fetch="https://github.com/omnirom/" />
+
+<project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="omnirom" revision="android-8.1" />
+<project path="hardware/sony/camera" name="android_hardware_sony_camera" remote="omnirom" revision="android-8.1" />
+<project path="hardware/sony/cash" name="android_hardware_sony_cash" remote="omnirom" revision="android-8.1" />
+<project path="hardware/sony/dataservices" name="android_hardware_sony_dataservices" remote="omnirom" revision="android-8.1" />
+<project path="hardware/sony/fingerprint" name="android_hardware_sony_fingerprint" remote="omnirom" revision="android-8.1" />
+<project path="hardware/sony/location" name="android_hardware_sony_location" remote="omnirom" revision="android-8.1" />
+<project path="hardware/sony/macaddrsetup" name="android_hardware_sony_macaddrsetup" remote="omnirom" revision="android-8.1" />
+<project path="hardware/sony/thermanager" name="android_hardware_sony_thermanager" remote="omnirom" revision="android-8.1" />
+<project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" remote="omnirom" revision="android-8.1" />
+
+</manifest>
