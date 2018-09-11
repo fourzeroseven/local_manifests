@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
+<remote name="fourzero" fetch="https://github.com/fourzeroseven/" />
 <project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="o-mr1" />
 <project path="device/sony/common" name="device-sony-common" groups="device" remote="sony" revision="o-mr1" />
 
@@ -8,7 +9,7 @@
 <project path="device/sony/loire" name="device-sony-loire" groups="device" remote="sony" revision="o-mr1" />
 <project path="device/sony/blanc" name="device-sony-blanc" groups="device" remote="sony" revision="o-mr1" />
 <project path="device/sony/kugo" name="device-sony-kugo" groups="device" remote="sony" revision="o-mr1" />
-<project path="device/sony/suzu" name="device-sony-suzu" groups="device" remote="sony" revision="o-mr1" />
+<project path="device/sony/suzu" name="device-sony-suzu" groups="device" remote="fourzero" revision="DU-o8x" />
 
 <!--sdm630-->
 <project path="device/sony/nile" name="device-sony-nile" groups="device" remote="sony" revision="o-mr1" />
